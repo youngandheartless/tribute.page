@@ -1,0 +1,146 @@
+body {
+  background-image: url("fullblack.jpg");
+  background-repeat: no-repeat;/*gör så att bakgrunden inte repiteras om och om igen*/
+  background-size: 100% 100%; /*this mages the picture big for the whole page*/
+  font-family: Georgia, serif;
+
+}
+
+
+
+h1, h2{
+text-align: center; /*det gör så att texten är i mitten och inte är vid kanten alltså början av sidan*/
+color: white; /*gör så att texten är vit*/
+text-shadow: 3px 3px 6px white; /*gör så att rubriken och thexten under rubriken skiner*/
+}
+
+
+img {
+  width: 400px;/*gör så att bilden sträcker ut sig från siden så att den inte blir för smal*/
+  height: 400px;/*gör så att bilden inte blir för platt och ser symmetrisk ut*/
+    border-radius: 25px;/*gör så att bilden kurvar sig på kanterna och ser lite finare ut*/
+  margin-top: 120px;/*gör så att videon är i mitten och inte är för nära mina texter eller något annat*/
+  }
+
+  .pictures{
+    max-width: 1500px;
+    margin: 40px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    justify-content: /*hela dehär gör så att bilderna ligger bredvid alla och inte är över eller under varandra*/
+}
+
+.pict1{/*det här är bild 1*/
+  padding: 20px;/*det här är mellanrummen mellan dem olika elementerna*/
+  flex: 1;/*gör så att alla bilder är i samma storlek*/
+  flex-basis: 30%;/*gör så att det finns en specifik mellanrum mellan bilderna och texten*/
+}
+
+.pict2{
+  padding: 20px;
+  flex: 1;
+  flex-basis: 30%;
+}
+
+.pict3{
+  padding: 20px;
+  flex: 1;
+  flex-basis: 30%;
+}
+
+
+.vid{
+  position: absolute;
+
+}
+
+.videos{
+
+
+  max-width: 1500px;
+  margin: 40px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.vid1{
+
+  margin-left: 110px;
+  padding: 20px;
+  box-sizing: border-box;
+  flex: 1;
+  flex-basis: 45%;
+  border-color: black;
+}
+
+.vid2{
+
+
+  padding: 20px;
+  box-sizing: border-box;
+  flex: 1;
+  flex-basis: 45%;
+}
+
+
+.main{
+  max-width: 1500px;
+  margin: 40px auto 0 auto;
+  line-height: 1.6;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text1{
+
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  flex: 1;
+  flex-basis: 30%;
+  color: white;
+  order: 2;
+}
+
+.text2{
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  flex: 1;
+  flex-basis: 30%;
+  color: white;
+  order: 1;
+}
+
+.text3{
+  padding: 20px;
+  margin-bottom: 20px;
+  flex: 1;
+  flex-basis: 30%;
+  color: white;
+  order: 3;
+}
+
+.btn-primary{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  border: none;
+  transition: 1s;
+  background-color: black;
+}
+
+.btn-primary:hover{
+  background-color: white;
+}
+
+.btn-primary:hover a{
+  color: black;
+  text-decoration: none;
+}
+
+a{
+  color: white;
+}
